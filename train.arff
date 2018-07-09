@@ -1,0 +1,13 @@
+@relation train
+
+@attribute text string
+@attribute class {spam,ham}
+
+@data
+'good one',ham
+'good',ham
+'very good',ham
+'bad',spam
+'very bad',spam
+'very bad, very bad',spam
+'good good bad',ham

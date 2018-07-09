@@ -1,0 +1,17 @@
+@relation train
+@attribute text String
+@attribute Sentiment {negative,neutral,positive}
+
+@data
+' Great car product, ',?
+'Does car spare parts easy Asaba',?
+'Very bad car',?
+'please knock sensor car',?
+'the car properties good',?
+'useless car',?
+'Just Infinity FX. Mehn ride wicked fast',?
+'Hello friends good evening all. Tokumbo Ford Galaxy silver ray bought commercial purposes. driver ply Onitsha Abuja Kano northern states. agreement responsible car maintenance remits weekly basis. thought felt cheated decided good car travels north. note: carries persons charges head. anticipation',?
+'i love car',?
+'try estimate efficiency engine',?
+'Sienna sell, clean low milage',?
+'we forget avalon, car spacious comfortable',?

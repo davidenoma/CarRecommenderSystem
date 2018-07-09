@@ -1,0 +1,9 @@
+@relation testing
+@attribute text String
+@attribute Sentiment {negative,neutral,positive}
+
+@data
+'i love this car, it is durable',?
+'counting on you to deliver on your promise',?
+'this car is not so good, dont like it',?
+'very bad car',?

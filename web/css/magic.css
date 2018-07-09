@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	background-color: #4285F4;
+	color: #fff;
+	height: 64px;
+	text-align: center;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .75);
+}
+nav a{
+	color: #fff;
+}
+#header-title{
+	text-align: center !important;
+}
+.firstrow{
+	background-color: #025B9D;
+	min-height: 500px;
+	box-shadow: 2px 4px 2px rgba(0, 0, 0, .75);
+	z-index: 9;
+}
+.firstrow:hover{
+
+}
+.secondrow{
+	background-color: #FFFF00;
+	min-height: 500px;
+}
+.secondrow:hover{
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .75);
+	z-index: 99;
+}
+.thirdrow{
+	background-color: #FF6476;
+	min-height: 500px;
+}
+.thirdrow:hover{
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .75);
+	z-index: 99;
+}
+.depts{
+	margin: 100px 20px 50px 20px;
+}
+.car-link{
+	text-decoration: none;
+}
+.alert-success{
+	background-color: #fff !important;
+	box-shadow: 1px 1.5px 3px rgba(0, 0, 0, .8) !important;
+}
+.parts{
+	background-color: #fff;
+	box-shadow: 1px 1.5px 3px rgba(0, 0, 0, .8);
+}
+.parts:hover{
+	cursor: pointer;
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, .8);
+}
+#add-car{
+	margin-top: 100px;
+	padding: 25px;
+	background-color: #fcfcfc;
+	box-shadow: 1px 1.5px 3px rgba(0, 0, 0, .8);
+}
+#add-car a{
+	text-decoration: none;
+}
+input[type=text], input[type=password], input[type=email], input[type=number], select, input[type='file'], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+}
+.btn-login {
+	border: 2px solid #fff;
+	background-color: #20A8D8;
+	padding: 10px 60px;
+	font-size: 18px;
+	width: 100%;
+	margin: 10px auto;
+	color: #fff;
+}
+footer{
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+}

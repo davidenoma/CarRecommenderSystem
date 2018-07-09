@@ -1,0 +1,13 @@
+@relation test
+
+@attribute text string
+@attribute class {spam,ham}
+
+@data
+'good bad very bad',?
+'good bad very bad',?
+'good',?
+'good very good',?
+'bad',?
+'very good',?
+'very very good',?
